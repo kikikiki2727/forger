@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = "This is a test gem for me."
   spec.homepage      = "https://github.com/kikikiki2727/forger"
   spec.license       = "MIT"
-  spec.required_ruby_version = ">= 2.4.0"
+  spec.required_ruby_version = ">= 3.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
