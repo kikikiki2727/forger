@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-require "forger"
+# require_relative "../lib/forger/default/name"
+# require "forger/default/name"
+Dir[File.join(File.dirname(__FILE__), "../lib/**/*.rb")].each { |f| require f }
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
